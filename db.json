@@ -1,0 +1,123 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "body": "escribiendo un post de prueba con el usuario 1",
+      "date": "26/9/2017 19:30:18",
+      "id": 1,
+      "likes": 15
+    },
+    {
+      "userId": 2,
+      "body": "probando\n",
+      "date": "26/9/2017 20:03:14",
+      "id": 3,
+      "likes": 24
+    },
+    {
+      "userId": 1,
+      "body": "daro",
+      "date": "26/9/2017 21:45:33",
+      "id": 5,
+      "likes": 1
+    },
+    {
+      "userId": 2,
+      "body": "asfasfasf\n",
+      "date": "26/9/2017 21:46:12",
+      "id": 6,
+      "likes": 2
+    },
+    {
+      "userId": 2,
+      "body": "FUNCIONA LO DE BORRAR!!!! VAMO CARAJO!!! VAMOS MANAOS Y LAS PITUSAS",
+      "date": "27/9/2017 1:13:52",
+      "id": 7,
+      "likes": 4
+    },
+    {
+      "userId": 1,
+      "body": "algo nuevo que escribir",
+      "date": "27/9/2017 15:02:37",
+      "id": 8,
+      "likes": 0
+    },
+    {
+      "userId": 2,
+      "body": "y ahora con el otro usuario",
+      "date": "27/9/2017 15:02:47",
+      "id": 9,
+      "likes": 0
+    },
+    {
+      "userId": 1,
+      "body": "probando a ver si se crea con likes\n",
+      "date": "27/9/2017 15:34:12",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "body": "hola",
+      "date": "2/10/2017 23:42:05",
+      "likes": 4,
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1,
+      "userId": 1,
+      "date": "2/10/2017"
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "body": "fafafa",
+      "date": "2/10/2017",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "postId": 3,
+      "body": "asd",
+      "date": "2/10/2017 23:04:11",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "body": "probanding",
+      "date": "2/10/2017 23:39:43",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "postId": 11,
+      "body": "aca te comento",
+      "date": "2/10/2017 23:42:13",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "body": "probando nuevamente",
+      "date": "2/10/2017",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Gustavo Koutian  ",
+      "image": "http://i.pravatar.cc/60?img=3"
+    },
+    {
+      "id": 2,
+      "name": "Lalo landa  ",
+      "image": "http://i.pravatar.cc/60?img=13"
+    }
+  ]
+}

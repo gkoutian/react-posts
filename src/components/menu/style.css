@@ -1,0 +1,85 @@
+.menu {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    margin: 10px;
+    letter-spacing: 3px;
+    color: #59A0DE;
+}
+
+.logo:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    display: inline-block;
+    display: flex;
+}
+
+ul .imagen, ul button {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+ul button {
+    background-color: white;
+    color: #ccc;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    padding-top:3px;
+    transition: 0.5s;
+}
+
+ul .imagen {
+    font-size: 22px;
+    text-align: center;
+    background-size: 40px 40px  ;
+    transition: 0.5s;
+    color: transparent;
+    
+}
+ul .imagen .userbutton {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+ul button:hover {
+    background-color: #59A0DE;
+    border-color: #59A0DE;
+    color: white;
+    cursor: pointer;
+}
+
+ul .imagen .userbutton:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
