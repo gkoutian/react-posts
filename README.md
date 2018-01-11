@@ -16,4 +16,4 @@ Por ultimo simplemente iniciar
 ```
 $ npm run dev
 ```
-![Imagen de la pagina](https://raw.githubusercontent.com/gkoutian/react-post/master/img/sample.png)
+![Imagen de la pagina](https://raw.githubusercontent.com/gkoutian/react-posts/master/img/sample.png)
