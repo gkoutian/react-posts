@@ -48,5 +48,23 @@
 
 .modal-content-post button:hover {
     background-color: #59A0DE;
-    color:white;
+    color:rgb(158, 135, 135);
+}
+
+@media screen and (max-width: 960px) {
+    .modal-content-post {
+        width: 70%;
+    }
+    .modal-content-post button{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .modal-content-post {
+        width: 90%;
+    }
+    .modal-content-post button{
+        width: 60%;
+    }
 }

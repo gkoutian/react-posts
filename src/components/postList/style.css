@@ -135,3 +135,49 @@ input {
     background-color: #59A0DE;
     border-color: #59A0DE;
 }
+
+@media screen and (max-width: 960px) {
+    .post {
+        width: 80%;
+    }
+    .postfooter {
+        padding: 10px;
+    }
+    .postbody {
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .post {
+        width: 90%;
+    }
+    .postfooter {
+        padding: 10px;
+    }
+    .postbody {
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    .postheader {
+        display: flex;
+        padding: 25px 15px 5px 15px;
+    }
+    .postheader img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+    }
+    .postdata {
+        padding-left: 15px;
+    }
+    .postdata div:last-child button {
+        width: 20px;
+        height: 20px;
+    }
+}

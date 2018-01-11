@@ -12,15 +12,8 @@ Primero cargar todos los modulos de node necesarios:
 ```
 $ npm install
 ```
-Para usar la base de datos hay que instalar json-server
-```
-$ npm install -g json-server
-```
-Y luego iniciar la base de datos 
-```
-$ json-server --watch db.json --port 1337
-```
 Por ultimo simplemente iniciar
 ```
-$ npm start
+$ npm run dev
 ```
+![Imagen de la pagina](https://raw.githubusercontent.com/gkoutian/react-post/master/img/sample.png)

@@ -50,3 +50,9 @@
     font-size: 12px;
     text-align: left;
 }
+
+@media screen and (max-width: 414px) {
+    .commentlist ul {
+        padding: 0 20px;
+    }
+}
